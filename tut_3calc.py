@@ -18,3 +18,6 @@ print (4%3)
 
 # exponent
 print (2**3)
+
+# round function
+print(round(2**0.5,4))
