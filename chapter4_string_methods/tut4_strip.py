@@ -12,3 +12,7 @@ print (right_strip)
 # replace
 replace_space = name.replace(" ", "_")
 print (replace_space)
+
+string = "this is some random string"
+find_and_replace = string.replace(" is ", " was ")
+print (find_and_replace)
