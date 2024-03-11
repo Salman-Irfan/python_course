@@ -8,3 +8,7 @@ print (left_strip)
 
 right_strip = name.rstrip()
 print (right_strip)
+
+# replace
+replace_space = name.replace(" ", "_")
+print (replace_space)
