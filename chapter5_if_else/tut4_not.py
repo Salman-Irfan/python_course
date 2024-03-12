@@ -8,3 +8,11 @@ if not user_data["agree_to_terms"]:
     )
 else:
     print(f"Welcome, {user_data['name']}! You have agreed to the terms and conditions.")
+
+
+name = "salman"
+
+if "a" in name:
+    print("a is present in name")
+else:
+    print("a is not present in name")
