@@ -1,15 +1,17 @@
 class Person:
     def __init__(self, first_name, last_name, age):
-        print (f"init method or constructor method called")
+        print(f"init method or constructor method called")
         # instance variables
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
-person1 = Person('salman', 'irfan', 25)
 
-print (person1)
-print (person1.first_name)
+person1 = Person("salman", "irfan", 25)
+
+print(person1)
+print(person1.first_name)
+
 
 # laptop class
 class Laptop:
@@ -18,6 +20,8 @@ class Laptop:
         self.brand_name = brand_name
         self.model_name = model_name
         self.price = price
+        self.laptop_name = brand_name + " " + model_name
+
 
 # laptop instances
 # Create two instances of the Laptop class
@@ -29,8 +33,9 @@ print("Laptop 1:")
 print("Brand Name:", laptop1.brand_name)
 print("Model Name:", laptop1.model_name)
 print("Price:", laptop1.price)
+print("laptop_name:", laptop1.laptop_name)
 
 print("\nLaptop 2:")
 print("Brand Name:", laptop2.brand_name)
 print("Model Name:", laptop2.model_name)
-print("Price:", laptop2.price)
+print("laptop_name:", laptop2.laptop_name)
