@@ -10,3 +10,6 @@ class Person:
 
 salman = Person('salman', 'irfan', 25)
 salman.get_full_name()
+
+person2 = Person('person2', 'last name', 30)
+Person.get_full_name(person2) # logic behind self argument
