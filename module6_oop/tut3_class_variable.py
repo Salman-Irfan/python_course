@@ -8,8 +8,8 @@ class Circle:
 
     # area method
     def area(self):
-        print(self.pi * self.radius**2)
-        return self.pi * self.radius**2
+        print(Circle.pi * self.radius**2)
+        return Circle.pi * self.radius**2
 
     # circumference method
     def circumference(self):
