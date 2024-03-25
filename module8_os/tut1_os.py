@@ -13,7 +13,7 @@ else:
 # Specify the path to the new file inside the "notes" folder
 file_path = os.path.join("notes", "note1.txt")
 
-# Open the file in append mode and write some content
+# Open the file in append mode and write some content, and close automatically
 with open(file_path, "a") as file:
     file.write("This is a new file created inside the notes folder.")
 
