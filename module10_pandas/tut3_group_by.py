@@ -42,3 +42,12 @@ grouped_data_sum = df.groupby("Product")["Sales"].sum().reset_index()
 # Display the total sales by product category
 print("Total Sales by Product Category:")
 print(grouped_data_sum)
+
+
+# minimum data
+print(f"grouped_data.min()")
+print(grouped_data.min())
+
+# maximum data
+print(f"grouped_data.max()")
+print(grouped_data.max())
