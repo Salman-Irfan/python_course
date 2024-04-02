@@ -51,3 +51,7 @@ print(grouped_data.min())
 # maximum data
 print(f"grouped_data.max()")
 print(grouped_data.max())
+
+# mean data
+print(f"grouped_data.mean()")
+print(grouped_data.mean())
